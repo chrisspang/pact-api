@@ -11,6 +11,7 @@ import Token from './resources/Token';
 import Users from './resources/Users';
 import Gifts from './resources/Gifts';
 import Ping from './resources/Ping';
+import Actions from './resources/Actions';
 
 const resources = {
   PasswordReset,
@@ -26,6 +27,7 @@ const resources = {
   Users,
   Gifts,
   Ping,
+  Actions,
 };
 
 export default class PactAPI {
